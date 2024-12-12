@@ -6,3 +6,5 @@ Formação Alura de aproximadamente 40 horas
  - Java: criando sua primeira API e conectando ao front
 
 A aplicação fornece uma api de consulta sobre series previamente cadastradas em um banco de dados originadas do OMDB.
+
+Front: https://github.com/alura-cursos/3356-java-web-front
