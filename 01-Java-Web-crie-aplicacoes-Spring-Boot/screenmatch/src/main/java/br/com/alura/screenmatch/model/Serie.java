@@ -1,6 +1,5 @@
 package br.com.alura.screenmatch.model;
 
-import br.com.alura.screenmatch.service.ConsultaChatGPT;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -22,7 +21,7 @@ public class Serie {
     private String poster;
     private String sinopse;
 
-    @OneToMany(mappedBy = "serie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany (mappedBy = "serie", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Episodio> episodios = new ArrayList<>();
 
     public Serie() {
